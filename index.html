@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape the Haunted House</title>
+</head>
+<style>
+    h1 {
+       font-size: 80px; 
+    }
+
+    h2 {
+       font-size: 70px; 
+    }
+
+    p{
+        font-size: 18px;
+    }
+</style>
+
+<body>
+    <div id="home" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+    <h1 >Escape the Haunted House</h1>
+        <p >When you wake up you are in a dark room and after a while you realize that you are in a haunted house. You have to find a way to escape the house before the old granny finds you. The main door is locked. Your goal is to find the key and escape the house.</p>
+    <br><br>
+        <a href="#start" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000;text-decoration: none;  font-size: 18px; ">
+            Start Game
+        </a>
+    </div>
+
+
+    <div id="start" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have woken up!</h2>
+        <p>You are in a beedroom. There is a bed, a closet and a vase on the table. <br>  If you pick up the vase and drop it the granny will come into the bedroom to capture you.</p>
+         <br><br>
+        <a href="#staircase" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Open the door and go towards the staircase
+        </a>
+         <br>
+        <a href="#vase" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Smash the vase on the floor to make a noise, then hide in the closet
+        </a>
+ 
+    </div>
+
+    <div id="staircase" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have exited the bedroom!</h2>
+        <p>You are in the hallway and ypu see two rooms and the staircase on the right. </p>
+         <br><br>
+        <a href="#explore" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Check out the two rooms
+        </a>
+         <br>
+        <a href="#goup" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Go upstairs and look for key
+        </a>
+
+    </div>
+
+    <div id="vase" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have made a noise !</h2>
+        <p>After listening to the noise, the granny is comming towards the bedroom.        </p>
+         <br><br>
+        <a href="#staircase" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Hide in the closet and wait for the granny to leave, then open the door and go outside.
+        </a>
+         <br>
+        <a href="#lost1" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Pick up the vase again and drop it again.
+        </a>
+
+    </div>
+    <div id="lost1" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>The granny caught you!</h2>
+        <p>Since you delayed your escape, the granny has caught you. </p>
+         <br><br>
+        <a href="#home" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000;text-decoration: none;  font-size: 18px; ">
+            Play again
+        </a>
+
+    </div>
+
+</body>
+</html>
