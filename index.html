@@ -22,7 +22,7 @@
 <body>
     <div id="home" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
     <h1 >Escape the Haunted House</h1>
-        <p >When you wake up you are in a dark room and after a while you realize that you are in a haunted house. You have to find a way to escape the house before the old granny finds you. The main door is locked. Your goal is to find the key and escape the house.</p>
+        <p >When you wake up you are in a dark room and after a while you realize that you are in a haunted house. You have to find a way to escape the house before the old granny finds you. The main door is locked. Your goal is to find the key and escape the house. There are also other ways to escape the house. </p>
     <br><br>
         <a href="#start" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000;text-decoration: none;  font-size: 18px; ">
             Start Game
@@ -44,19 +44,10 @@
  
     </div>
 
-    <div id="staircase" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
-     <h2>You have exited the bedroom!</h2>
-        <p>You are in the hallway and ypu see two rooms and the staircase on the right. </p>
-         <br><br>
-        <a href="#explore" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
-            Check out the two rooms
-        </a>
-         <br>
-        <a href="#goup" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
-            Go upstairs and look for key
-        </a>
 
-    </div>
+
+
+
 
     <div id="vase" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
      <h2>You have made a noise !</h2>
@@ -74,11 +65,164 @@
     <div id="lost1" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
      <h2>The granny caught you!</h2>
         <p>Since you delayed your escape, the granny has caught you. </p>
-         <br><br>
+         <br><br> 
         <a href="#home" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000;text-decoration: none;  font-size: 18px; ">
-            Play again
+            Play again 
         </a>
 
+    </div>
+
+    <div id="staircase" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have exited the bedroom and reached the staircase!</h2>
+        <p>There are two rooms on the groundfloor with the staircase in between. The room on the right is a library and the room on the left is the bathroom.</p>
+         <br><br>
+        <a href="#explore" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Check out the two rooms
+        </a>
+         <br>
+        <a href="#goup" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Go upstairs and look for key
+        </a>
+    </div>
+
+    <div id="explore" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     
+        <a href="#library" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 50px; ">
+            Go towards the library and explore it.
+        </a>
+         <br><br><br><br>
+        <a href="#bathroom" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 50px; ">
+            Go towards the bathroom and explore it.
+        </a> 
+    </div>
+
+
+
+    <div id="library" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have entered the library!</h2>
+        <p>The room is filled with tall bookshelves covered with cobwebs. On the reading desk in the center of the room. There was an old book at the center of the table. There is also a door in the room which is locked by a passcode.</p>
+         <br><br>
+        <a href="#book" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Open the book and examine it.
+        </a>
+         <br>
+        <a href="#bathroom" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Leave the library and go to the bathroom.
+        </a>
+    </div>
+ 
+    <div id="bathroom" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have entered the bathroom!</h2>
+        <p>You step inside the dark room on the dirty and cold tiles. The bathtub is filled with water. Suddenly the doorknob slowly starts to turn. She's here!</p>
+         <br><br>
+        <a href="#tub" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Hold your breath and hide in the bathtub until the granny leaves the bathroom.
+        </a>
+         <br>
+        <a href="#window" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Climb outside the bathroom window and escape the house.
+        </a>
+    </div>
+
+    <div id="tub" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have entered the bathroom!</h2>
+        <p>You hold your breath and hide in the bathtub. As you thought she would leave, she catches you. You are trapped!</p>
+         <br><br>
+        <a href="#" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Play again
+        </a>
+         
+    </div>
+
+     <div id="window" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have climed outside the house!</h2>
+        <p>You have escaped the house!</p>
+         <br><br>
+        <a href="#" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Play again
+        </a>
+         
+    </div>
+
+    <div id="book" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have opened the book!</h2>
+        <p>The pages of the book are old and yellowed. The language of the book is something you would not understand. But on the last page of the book, has a four number code <i>2-4-5-6</i></p>
+         <br><br>
+        <a href="#win1" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Use the code to open the door in the library and escape the house.
+        </a>
+         <br>
+        <a href="#bathroom" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Leave the library in confusion as you did not find anything important and go to the bathroom.
+        </a>
+    </div>
+
+    <div id="win1" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>The Door opens when you use the code!</h2>
+        <p>You found that the code works and the door opens. It's a way out. You have finally escaped!</p>
+         <br><br>
+        <a href="#home" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Play again
+        </a>
+         
+    </div>
+
+
+    <div id="goup" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You are climbing up the stairs!</h2>
+        <p>The stairs make a creaking sound with each step. You are in the middle of the stairs when you notics the granny comming towards the staircase.</p>
+         <br><br>
+        <a href="#attic" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Run towards the attic and find a place to hide there.
+        </a>
+         <br>
+        <a href="#lost2" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Try to run past her towards the three rooms. 
+        </a>
+    </div>
+
+     <div id="lost2" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You are caught!</h2>
+        <p>The granny catches you when you try to run past her. You have lost!</p>
+         <br><br>
+        <a href="#home" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Play again
+        </a>
+         
+    </div>
+
+
+    <div id="attic" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You are in the attic!</h2>
+        <p>You have entered the attic and closed the door. There is a cupboard in the corner. There is also a small vent hole which is open.</p>
+         <br><br> 
+        <a href="#win2" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Try to climb out of the vent hole and escape the house.
+        </a>
+         <br>
+        <a href="#lost3" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Hide in the cupboard and wait for granny to leave.
+        </a>
+    </div> 
+
+     <div id="lost3" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You are caught!</h2>
+        <p>The granny found your hiding spot. You have lost!</p>
+         <br><br>
+        <a href="#home" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Play again
+        </a>
+         
+    </div>
+
+     <div id="win2" style="display: flex; flex-direction: column;justify-content: center; align-items: center; min-height: 100vh;text-align: center;background-color:#000000;   color: white;">
+     <h2>You have escaped!</h2>
+        <p>You have successfully crawled out of the vent hole and escaped the house!</p>
+         <br><br>
+        <a href="#home" style="display: block; padding: 15px 20px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 18px; ">
+            Play again
+        </a>
+         
     </div>
 
 </body>
